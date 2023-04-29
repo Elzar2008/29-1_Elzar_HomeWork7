@@ -146,9 +146,9 @@ quantity INTEGER NOT NULL DEFAULT 0
 
 if connection is not None:
     print("Connected Success!")
-    # select_all_products(connection)
-    # delete_products(connection, 14)
-    # create_products(connection)
-    # update_product_quantity(connection, (8, 7))
-    # update_product_price(connection, (45, 1))
-    # select_all_products(connection)
+    select_all_products(connection)
+    delete_products(connection, 14)
+    create_products(connection)
+    update_product_quantity(connection, (8, 7))
+    update_product_price(connection, (45, 1))
+    select_all_products(connection)
